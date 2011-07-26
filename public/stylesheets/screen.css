@@ -450,11 +450,15 @@ div#facebook_like.home_like {
   padding: 0 165px 0 0;
 }
 
+div#festivals {
+  width: 700px;
+}
 div#rushes_soho {
+  width: 240px;
   padding: 0 65px 40px 0;	
 }
 
 div#hollyshorts {
-  position: right;
+  width: 240px;
   padding: 0 65px 40px 0;
 }
