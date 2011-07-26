@@ -455,10 +455,12 @@ div#festivals {
 }
 div#rushes_soho {
   width: 240px;
+  position: left;
   padding: 0 65px 40px 0;	
 }
 
 div#hollyshorts {
   width: 240px;
+  position: right;
   padding: 0 65px 40px 0;
 }
