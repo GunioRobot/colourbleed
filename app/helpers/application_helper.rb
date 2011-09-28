@@ -18,8 +18,15 @@ module ApplicationHelper
     image_tag("hollyshorts_official_selection_v02.png", :size => "225x110")
   end
 
-  # def festival_
-  #   image_tag("hollyshorts.png", :size => "225x110")
-  # end
+  def festival_cambridge
+    image_tag("cambridge.png", :size => "225x110")
+  end
 
+  def festival_fantasticfest
+    image_tag("fantasticfest.png", :size => "225x110")
+  end
+
+  def festival_sites
+    image_tag("sites.png", :size => "225x110")
+  end
 end

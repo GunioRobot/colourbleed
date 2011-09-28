@@ -451,15 +451,30 @@ div#facebook_like.home_like {
 }
 
 div#festivals {
-  width: 700px;
+  width: 750px;
 }
 div#rushes_soho {
   width: 240px;
   position: left;
-  padding: 0 65px 40px 0;	
+  padding: 0 65px 40px 0;
+}
+div#festival_cambridge {
+  width: 240px;
+  position: right;
+  padding: 0 65px 40px 0;
+}
+div#hollyshorts {
+  width: 240px;
+  position: right;
+  padding: 0 65px 40px 0;
 }
 
-div#hollyshorts {
+div#fantasticfest {
+  width: 240px;
+  position: right;
+  padding: 0 65px 40px 0;
+}
+div#sites {
   width: 240px;
   position: right;
   padding: 0 65px 40px 0;
