@@ -11,11 +11,15 @@ module ApplicationHelper
   end
 
   def festival_rushes
-    image_tag("rushes_soho.png", :size => "225x110")
+    image_tag("rushes_soho_shorts_official-_selection_v02.png", :size => "225x110")
   end
 
   def festival_hollyshorts
-    image_tag("hollyshorts.png", :size => "225x110")
+    image_tag("hollyshorts_official_selection_v02.png", :size => "225x110")
   end
+
+  # def festival_
+  #   image_tag("hollyshorts.png", :size => "225x110")
+  # end
 
 end
