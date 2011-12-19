@@ -8,5 +8,5 @@ def logger.debug_variables(bind)
   vars.each do |var|
     debug "#{var} = #{eval(var, bind).inspect}"
   end
-  
+
 end

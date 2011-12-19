@@ -26,7 +26,7 @@ if (history && history.pushState) {
       return false;
     });
 
-    //enable back button links 
+    //enable back button links
     $(window).bind("popstate.colourbleed", function() {
       $.ajax({
         url: location.href,
@@ -35,7 +35,7 @@ if (history && history.pushState) {
           var main_content = $("div#main_content");
           main_content.html(data);
         }
-      }); 
+      });
     }); // window bind
   }); //dom ready
 }; //history.pushState
@@ -46,8 +46,8 @@ $("div#talent").livequery(function() {
 
 
 
-                                // gallery 
-                                
+                                // gallery
+
 //thumbnails
 var animation_speed = 250;
 var starting_opacity = 0.6;

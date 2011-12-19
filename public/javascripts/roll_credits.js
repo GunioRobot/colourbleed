@@ -10,7 +10,7 @@
     var pause = $("<div id=\"pause\"></div>");
     pause.hide();
     pause.appendTo("div#page_container");
-    
+
     // var h1 = $("h1");
     wrapper.css("height", credits_height + "px");
 
@@ -24,7 +24,7 @@
         if (absolute_current_margin > credits_height) {
           var scrollTop = $(window).scrollTop();
           var windowHeight = $(window).height();
-          return (scrollTop + windowHeight - 200) + "px";                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           
+          return (scrollTop + windowHeight - 200) + "px";
         } else {
           return (current_margin - distance) + "px";
         }
